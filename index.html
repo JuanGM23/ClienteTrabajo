@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Cliente Trabajo Ev1" />
+  <meta name="keywords" content="Cliente Trabajo Ev1 Desarrollo De Aplicaciones Web" />
+  <meta name="language" content="ES" />
+  <meta name="author" content="juanjose.gavilan@a.vedrunasevillasj.es" />
+  <meta name="robots" content="index,follow" />
+  <meta name="revised" content="Monday, November 6th, 2023, 4:30pm" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome1" />
+
+  <link rel="icon" href="img/th.jpeg" />
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Cliente Trabajo Ev1 - JuanJoseGavilanMendez</title>  
+</head>
+
+<body>
+  <header id="mainHeader">
+    <h1>FakeStore Web</h1>
+    <div id="userSection" style="display: none;">
+      <span id="usernameDisplay"></span>
+      <button id="logoutButton" onclick="performLogout()">Cerrar Sesión</button>
+    </div>
+    <div id="categoryFormContainer"></div>
+    
+  </header>
+
+  <main>
+    <section id="productsSection" style="display: none;">
+      <!-- Aquí se mostrarán los productos -->
+    </section>
+
+    <section id="productDetails" style="display: none;">
+      <!-- Aquí se mostrarán los detalles del producto -->
+    </section>
+  </main>
+
+  <div id="wrapper">
+    <aside id="carrito-container">
+      <div id="lista-carrito"></div>
+    </aside>
+
+    <footer>
+      <p>&copy; JuanJose's FakeStore Web || 2023</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
